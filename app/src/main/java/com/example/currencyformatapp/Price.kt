@@ -2,7 +2,7 @@ package com.example.currencyformatapp
 
 import java.text.DecimalFormat
 
-class Price(countryCode: String, currencyCode: String, languageCode:String, price: Int) {
+class Price(countryCode: String, currencyCode: String, languageCode:String, price: String) {
     var langiageCode = languageCode
     var countryCode = countryCode
     var currencyCode = currencyCode

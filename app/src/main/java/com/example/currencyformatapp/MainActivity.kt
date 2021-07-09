@@ -418,14 +418,14 @@ class MainActivity : AppCompatActivity() {
                     countryCodeSpinner.selectedItem.toString(),
                     currencyCodeSpinner.selectedItem.toString(),
                     languageCodeSpinner.selectedItem.toString(),
-                    priceEditText.text.toString().toInt()
+                    priceEditText.text.toString()
             )
 
             val nf = NumberFormat.getCurrencyInstance(Locale(languageCodeSpinner.selectedItem.toString(), countryCodeSpinner.selectedItem.toString()))
             //val df = DecimalFormat("#, ###.##")
 
             currencyFormatTextView.setText(
-                    "${nf.format(priceEditText.text.toString().toInt())}"
+                    "${nf.format(priceEditText.text.toString().toDoubleOrNull())}"
             )
 //            currencyFormatTextView.setText(
 //                    "${countryCodeSpinner.selectedItem.toString()} " +
