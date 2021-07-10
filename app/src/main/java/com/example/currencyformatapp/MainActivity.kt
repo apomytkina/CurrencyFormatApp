@@ -1,23 +1,14 @@
 package com.example.currencyformatapp
 
 import android.os.Bundle
-import android.os.LocaleList
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
-import java.text.DecimalFormat
-import java.text.DecimalFormatSymbols
-import java.text.NumberFormat
-import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val decForm : DecimalFormat = DecimalFormat()
-        val dfs : DecimalFormatSymbols = DecimalFormatSymbols()
-
 
 //        val formats = arrayOf(
 //                DecimalFormat("# ###,##"), - 100 000 000,97
@@ -219,165 +210,6 @@ class MainActivity : AppCompatActivity() {
 //                "ZWD" to formats[4]
 //        )
 
-        val currencySymbols = mapOf(
-                "AED" to "د.إ",
-                "AFN" to "؋",
-                "ALL" to "Lek",
-                "AMD" to "դր.",
-                "ANG" to "ƒ",
-                "AOA" to "Kz",
-                "ARS" to "\$",
-                "AUD" to "$",
-                "AWG" to "ƒ",
-                "AZN" to "m",
-                "BAM" to "КМ",
-                "BBD" to "\$",
-                "BDT" to "৳",
-                "BGN" to "лв",
-                "BHD" to ".د.ب",
-                "BIF" to "Fr",
-                "BMD" to "\$",
-                "BND" to "$",
-                "BOB" to "Bs.",
-                "BRL" to "R$",
-                "BSD" to "\$",
-                "BTN" to "Nu.",
-                "BWP" to "P",
-                "BYR" to "Br",
-                "BZD" to "\$",
-                "CAD" to "\$",
-                "CDF" to "Fr",
-                "CHF" to "Fr",
-                "CLP" to "\$",
-                "CNY" to "¥",
-                "COP" to "\$",
-                "CRC" to "₡",
-                "CUC" to "\$",
-                "CUP" to "\$",
-                "CVE" to "\$",
-                "CZK" to "Kč",
-                "DJF" to "Fr",
-                "DKK" to "kr",
-                "DOP" to "\$",
-                "DZD" to "د.ج",
-                "EGP" to "ج.م",
-                "ERN" to "Nfk",
-                "ETB" to "Br",
-                "EUR" to "€",
-                "FJD" to "\$",
-                "FKP" to "£",
-                "GBP" to "£",
-                "GEL" to "ლ",
-                "GHS" to "₵",
-                "GIP" to "£",
-                "GMD" to "D",
-                "GNF" to "Fr",
-                "GTQ" to "Q",
-                "GYD" to "\$",
-                "HKD" to "\$",
-                "HNL" to "L",
-                "HRK" to "kn",
-                "HTG" to "G",
-                "HUF" to "Ft",
-                "IDR" to "Rp",
-                "ILS" to "₪",
-                "INR" to "₹",
-                "IQD" to "ع.د",
-                "IRR" to "﷼",
-                "ISK" to "kr",
-                "JMD" to "\$",
-                "JOD" to "د.ا",
-                "JPY" to "¥",
-                "KES" to "Sh",
-                "KGS" to "лв",
-                "KHR" to "៛",
-                "KMF" to "Fr",
-                "KPW" to "₩",
-                "KRW" to "₩",
-                "KWD" to "د.ك",
-                "KYD" to "\$",
-                "KZT" to "₸",
-                "LAK" to "₭",
-                "LBP" to "ل.ل",
-                "LKR" to "Rs",
-                "LRD" to "\$",
-                "LSL" to "L",
-                "LTL" to "Lt",
-                "LYD" to "ل.د",
-                "MAD" to "د.م.",
-                "MDL" to "L",
-                "MGA" to "Ar",
-                "MKD" to "ден",
-                "MMK" to "Ks",
-                "MNT" to "₮",
-                "MOP" to "P",
-                "MRO" to "UM",
-                "MUR" to "₨",
-                "MVR" to ".ރ",
-                "MWK" to "MK",
-                "MXN" to "\$",
-                "MYR" to "RM",
-                "MZN" to "MT",
-                "NAD" to "$",
-                "NGN" to "₦",
-                "NIO" to "C$",
-                "NOK" to "kr",
-                "NPR" to "₨",
-                "NZD" to "\$",
-                "OMR" to "ر.ع.",
-                "PAB" to "B/.",
-                "PEN" to "S/.",
-                "PGK" to "K",
-                "PHP" to "₱",
-                "PKR" to "₨",
-                "PLN" to "zł",
-                "PYG" to "₲",
-                "QAR" to "ر.ق",
-                "RON" to "L",
-                "RSD" to "дин.",
-                "RUB" to "руб.",
-                "RWF" to "Fr",
-                "SAR" to "ر.س",
-                "SBD" to "\$",
-                "SCR" to "₨",
-                "SDG" to "£",
-                "SEK" to "kr",
-                "SGD" to "\$",
-                "SHP" to "£",
-                "SLL" to "Le",
-                "SOS" to "Sh",
-                "SRD" to "\$",
-                "SSP" to "£",
-                "STD" to "Db",
-                "SYP" to "ل.س",
-                "SZL" to "L",
-                "THB" to "฿",
-                "TJS" to "ЅМ",
-                "TMT" to "m",
-                "TND" to "د.ت",
-                "TOP" to "T$",
-                "TRY" to "NULL",
-                "TTD" to "\$",
-                "TWD" to "\$",
-                "TZS" to "Sh",
-                "UAH" to "₴",
-                "UGX" to "Sh",
-                "USD" to "\$",
-                "UYU" to "\$",
-                "UZS" to "лв",
-                "VEF" to "Bs F",
-                "VND" to "₫",
-                "VUV" to "Vt",
-                "WST" to "T",
-                "XAF" to "Fr",
-                "XCD" to "\$",
-                "XOF" to "Fr",
-                "XPF" to "Fr",
-                "YER" to "﷼",
-                "ZAR" to "R",
-                "ZMW" to "ZK"
-        )
-
         val countryCodeSpinner: Spinner = findViewById(R.id.countryCodeSpinner)
         val currencyCodeSpinner: Spinner = findViewById(R.id.currencyCodeSpinner)
         val languageCodeSpinner: Spinner = findViewById(R.id.languageCodeSpinner)
@@ -414,19 +246,12 @@ class MainActivity : AppCompatActivity() {
         }
 
         showFormatButton.setOnClickListener{
-            val price = Price(
+            currencyFormatTextView.text = Price(
                     countryCodeSpinner.selectedItem.toString(),
                     currencyCodeSpinner.selectedItem.toString(),
                     languageCodeSpinner.selectedItem.toString(),
                     priceEditText.text.toString()
-            )
-
-            val nf = NumberFormat.getCurrencyInstance(Locale(languageCodeSpinner.selectedItem.toString(), countryCodeSpinner.selectedItem.toString()))
-            //val df = DecimalFormat("#, ###.##")
-
-            currencyFormatTextView.setText(
-                    "${nf.format(priceEditText.text.toString().toDoubleOrNull())}"
-            )
+            ).showFormat()
 //            currencyFormatTextView.setText(
 //                    "${countryCodeSpinner.selectedItem.toString()} " +
 //                    "${currencyCodeSpinner.selectedItem.toString()} " +
