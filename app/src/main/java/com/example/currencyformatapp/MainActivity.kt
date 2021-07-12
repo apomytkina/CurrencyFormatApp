@@ -223,7 +223,7 @@ class MainActivity : AppCompatActivity() {
                 R.array.countryCodes,
                 android.R.layout.simple_spinner_item
         ).also {adapter ->
-            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+            adapter.setDropDownViewResource(android.R.layout.simple_spinner_item)
             countryCodeSpinner.adapter = adapter
         }
 

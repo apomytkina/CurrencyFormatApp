@@ -2,15 +2,17 @@ package com.example.currencyformatapp
 
 import java.text.DecimalFormat
 import java.text.NumberFormat
+import java.time.format.DateTimeFormatter
 import java.util.*
 
 class Price(countryCode: String, currencyCode: String, languageCode:String, price: String) {
-    var langiageCode = languageCode
+    var languageCode = languageCode
     var countryCode = countryCode
     var currencyCode = currencyCode
     var price = price
 
     val currencySymbols = mapOf(
+            "-" to "-",
             "AED" to "د.إ",
             "AFN" to "؋",
             "ALL" to "Lek",
@@ -170,7 +172,10 @@ class Price(countryCode: String, currencyCode: String, languageCode:String, pric
     )
 
     fun showFormat() : String {
-        val nf = NumberFormat.getCurrencyInstance(Locale(langiageCode, countryCode))
-        return "${nf.format(price.toDoubleOrNull())}"
+        val format = if (currencyCode == "-")
+            NumberFormat.getInstance(Locale(languageCode, countryCode))
+        else
+            NumberFormat.getCurrencyInstance(Locale(languageCode, countryCode))
+        return "${format.format(price.toDoubleOrNull())}"
     }
 }

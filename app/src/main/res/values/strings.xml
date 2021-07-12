@@ -445,6 +445,7 @@
     </array>
 
     <array name="currencyCodes">
+        <item>-</item>
         <item>EUR</item>
         <item>AED</item>
         <item>AFN</item>
@@ -453,7 +454,6 @@
         <item>ALL</item>
         <item>AMD</item>
         <item>AOA</item>
-        <item>-</item>
         <item>ARS</item>
         <item>USD</item>
         <item>EUR</item>
