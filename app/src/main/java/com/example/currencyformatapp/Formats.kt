@@ -61,7 +61,7 @@ enum class Formats(
         else
             integer.toCharArray().reversedArray()
 
-        for (i in 0 until strInteger.size){
+        for (i in strInteger.indices){
             if (i > 0 && i % countOfIntegers == 0 && separator != '-')
                 listInteger.add(separator)
             listInteger.add(strInteger[i])
