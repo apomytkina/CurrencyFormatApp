@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--
     <RelativeLayout
         android:gravity="center_vertical"
         android:id="@+id/countryCodeLayout"
@@ -83,10 +84,61 @@
             android:layout_height="wrap_content"/>
 
     </RelativeLayout>
+-->
+    <RelativeLayout
+    android:gravity="center_vertical"
+    android:id="@+id/localeLayout"
+    android:layout_marginVertical="10dp"
+    android:layout_marginHorizontal="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:paddingLeft="5dp"
+        android:text="Choose Currency Code"
+        android:id="@+id/localeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/localeTextView"
+        android:id="@+id/localeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
 
     <RelativeLayout
         android:gravity="center_vertical"
-        android:layout_below="@+id/currencyCodeLayout"
+        android:layout_below="@+id/localeCodeLayout"
+        android:id="@+id/currencyCodeLayout"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:paddingLeft="5dp"
+            android:text="Choose Currency Code"
+            android:id="@+id/currencyCodeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:textAlignment="center"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/currencyCodeTextView"
+            android:id="@+id/currencyCodeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:layout_below="@+id/currencyLayout"
         android:id="@+id/countLayout"
         android:layout_marginVertical="10dp"
         android:layout_marginHorizontal="5dp"
