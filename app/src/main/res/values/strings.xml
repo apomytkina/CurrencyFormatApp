@@ -3,1319 +3,828 @@
 
     <array name="locales">
         <item></item>
-        <item>nn</item>
-        <item>ar_JO</item>
-        <item>bg</item>
-        <item>kea</item>
-        <item>nds</item>
-        <item>zu</item>
-        <item>am_ET</item>
-        <item>fr_DZ</item>
-        <item>ti_ET</item>
-        <item>bo_CN</item>
-        <item>hsb</item>
-        <item>qu_EC</item>
-        <item>ta_SG</item>
-        <item>lv</item>
-        <item>en_NU</item>
-        <item>zh_SG_#Hans</item>
-        <item>en_MS</item>
-        <item>en_GG</item>
-        <item>en_JM</item>
-        <item>vo</item>
-        <item>kkj</item>
-        <item>sr_ME</item>
-        <item>sv_SE</item>
-        <item>es_BO</item>
-        <item>dz_BT</item>
-        <item>mer</item>
-        <item>sah</item>
-        <item>en_ZM</item>
-        <item>fr_ML</item>
-        <item>br</item>
-        <item>ha_NG</item>
-        <item>ar_SA</item>
-        <item>fa_AF</item>
-        <item>dsb_DE</item>
-        <item>sk</item>
-        <item>os_GE</item>
-        <item>ml</item>
-        <item>en_MT</item>
-        <item>en_LR</item>
-        <item>ar_TD</item>
-        <item>en_GH</item>
-        <item>en_IL</item>
-        <item>sv</item>
-        <item>cs</item>
-        <item>el</item>
-        <item>tzm_MA</item>
         <item>af</item>
-        <item>sw_UG</item>
-        <item>ses_ML</item>
-        <item>smn</item>
-        <item>tk_TM</item>
-        <item>sr_ME_#Cyrl</item>
-        <item>ar_EG</item>
-        <item>dsb</item>
-        <item>lkt_US</item>
-        <item>vai_LR_#Latn</item>
-        <item>ji_001</item>
-        <item>yo_NG</item>
-        <item>se_NO</item>
-        <item>khq</item>
-        <item>sw_CD</item>
-        <item>vo_001</item>
-        <item>en_PW</item>
-        <item>pl_PL</item>
-        <item>fil_PH</item>
-        <item>it_VA</item>
-        <item>sr_CS</item>
-        <item>ne_IN</item>
-        <item>es_PH</item>
-        <item>es_ES</item>
-        <item>es_CO</item>
-        <item>bg_BG</item>
-        <item>ji</item>
-        <item>ar_EH</item>
-        <item>bs_BA_#Latn</item>
-        <item>en_VC</item>
-        <item>nds_DE</item>
-        <item>nb_SJ</item>
-        <item>es_US</item>
-        <item>agq</item>
-        <item>hsb_DE</item>
-        <item>en_US_POSIX</item>
-        <item>en_150</item>
-        <item>ar_SD</item>
-        <item>en_KN</item>
-        <item>ha_NE</item>
-        <item>pt_MO</item>
-        <item>ebu</item>
-        <item>ro_RO</item>
-        <item>zh__#Hans</item>
-        <item>lb_LU</item>
-        <item>sr_ME_#Latn</item>
-        <item>es_GT</item>
-        <item>so_KE</item>
-        <item>dje_NE</item>
-        <item>bas_CM</item>
-        <item>fr_PM</item>
-        <item>ar_KM</item>
-        <item>fr_MG</item>
-        <item>no_NO_NY</item>
-        <item>es_CL</item>
-        <item>mn</item>
-        <item>agq_CM</item>
-        <item>kam_KE</item>
-        <item>teo</item>
-        <item>tr_TR</item>
-        <item>eu</item>
-        <item>fa_IR</item>
-        <item>en_MO</item>
-        <item>wo</item>
-        <item>shi__#Tfng</item>
-        <item>en_BZ</item>
-        <item>sq_AL</item>
-        <item>ar_MR</item>
-        <item>es_DO</item>
-        <item>ru</item>
-        <item>twq_NE</item>
-        <item>az</item>
-        <item>nmg_CM</item>
-        <item>fa</item>
-        <item>kl_GL</item>
-        <item>en_NR</item>
-        <item>nd</item>
-        <item>kk</item>
-        <item>az__#Cyrl</item>
-        <item>en_MP</item>
-        <item>en_GD</item>
-        <item>tk</item>
-        <item>hy</item>
-        <item>shi__#Latn</item>
-        <item>en_BW</item>
-        <item>en_AU</item>
-        <item>en_CY</item>
-        <item>kab_DZ</item>
-        <item>kde_TZ</item>
-        <item>ta_MY</item>
-        <item>ti_ER</item>
-        <item>nus_SS</item>
-        <item>en_RW</item>
-        <item>nd_ZW</item>
-        <item>sv_FI</item>
-        <item>ksb</item>
-        <item>luo</item>
-        <item>lb</item>
-        <item>ne</item>
-        <item>en_IE</item>
-        <item>zh_SG</item>
-        <item>ln_CD</item>
-        <item>en_KI</item>
-        <item>nnh_CM</item>
-        <item>om_ET</item>
-        <item>no</item>
-        <item>ja_JP</item>
-        <item>my</item>
-        <item>ka</item>
-        <item>ar_IL</item>
-        <item>mgh</item>
-        <item>or_IN</item>
-        <item>fr_MF</item>
-        <item>shi</item>
-        <item>kl</item>
-        <item>en_SZ</item>
-        <item>rwk_TZ</item>
-        <item>zh</item>
-        <item>es_PE</item>
-        <item>mgh_MZ</item>
-        <item>saq</item>
-        <item>az__#Latn</item>
-        <item>ta</item>
-        <item>en_GB</item>
-        <item>lag</item>
-        <item>zh_HK_#Hant</item>
-        <item>ar_SY</item>
-        <item>ksf_CM</item>
-        <item>bo</item>
-        <item>kk_KZ</item>
-        <item>es_PA</item>
-        <item>tt_RU</item>
-        <item>om_KE</item>
-        <item>ar_PS</item>
-        <item>en_AS</item>
-        <item>fr_VU</item>
-        <item>zh_TW</item>
-        <item>bez</item>
-        <item>kln</item>
-        <item>fr_MC</item>
-        <item>kw</item>
-        <item>pt_MZ</item>
-        <item>fr_NE</item>
-        <item>vai__#Latn</item>
-        <item>ksb_TZ</item>
-        <item>ksh</item>
-        <item>ur_IN</item>
-        <item>ln</item>
-        <item>en_JE</item>
-        <item>gsw_CH</item>
-        <item>ln_CF</item>
-        <item>en_CX</item>
-        <item>luy_KE</item>
-        <item>pt</item>
-        <item>en_AT</item>
-        <item>gl</item>
-        <item>kkj_CM</item>
-        <item>sr__#Cyrl</item>
-        <item>yue_CN_#Hans</item>
-        <item>es_GQ</item>
-        <item>kn_IN</item>
-        <item>ar_YE</item>
-        <item>to</item>
-        <item>en_SX</item>
-        <item>ga</item>
-        <item>qu</item>
-        <item>ru_KZ</item>
-        <item>en_TZ</item>
-        <item>et</item>
-        <item>en_PR</item>
-        <item>mua</item>
-        <item>ko_KP</item>
-        <item>in</item>
-        <item>ps</item>
-        <item>sn</item>
-        <item>nl_SR</item>
-        <item>rof</item>
-        <item>en_BS</item>
-        <item>km</item>
-        <item>zgh</item>
-        <item>fr_NC</item>
-        <item>be</item>
-        <item>gv</item>
-        <item>es</item>
-        <item>dua</item>
-        <item>gd_GB</item>
-        <item>jgo</item>
-        <item>nl_BQ</item>
-        <item>fr_CM</item>
-        <item>gsw</item>
-        <item>uz_UZ_#Cyrl</item>
-        <item>pa_IN_#Guru</item>
-        <item>en_KE</item>
-        <item>guz</item>
-        <item>mfe</item>
-        <item>asa_TZ</item>
-        <item>teo_UG</item>
-        <item>ja</item>
-        <item>fr_SN</item>
-        <item>or</item>
-        <item>brx</item>
-        <item>fr_MA</item>
-        <item>pt_LU</item>
-        <item>fr_BL</item>
-        <item>en_NL</item>
-        <item>mgo_CM</item>
-        <item>ln_CG</item>
-        <item>te</item>
-        <item>sl</item>
-        <item>ko_KR</item>
-        <item>el_CY</item>
-        <item>mr_IN</item>
-        <item>ha</item>
-        <item>es_MX</item>
-        <item>lrc_IR</item>
-        <item>gsw_FR</item>
-        <item>es_HN</item>
-        <item>hu_HU</item>
-        <item>ff_SN</item>
-        <item>sbp</item>
-        <item>sq_MK</item>
-        <item>sr_BA_#Cyrl</item>
-        <item>fi</item>
-        <item>uz</item>
-        <item>bs__#Cyrl</item>
-        <item>et_EE</item>
-        <item>sr__#Latn</item>
-        <item>en_SS</item>
-        <item>sw</item>
-        <item>bo_IN</item>
-        <item>fy_NL</item>
-        <item>ar_OM</item>
-        <item>tr_CY</item>
-        <item>nmg</item>
-        <item>rm</item>
-        <item>en_MG</item>
-        <item>fr_BI</item>
-        <item>uz_UZ_#Latn</item>
-        <item>bn</item>
-        <item>dua_CM</item>
-        <item>de_IT</item>
-        <item>lrc_IQ</item>
-        <item>vai__#Vaii</item>
-        <item>kn</item>
-        <item>fr_TN</item>
-        <item>sr_RS</item>
-        <item>de_CH</item>
-        <item>bn_BD</item>
-        <item>nnh</item>
-        <item>fr_PF</item>
-        <item>en_ZA</item>
-        <item>gu</item>
-        <item>pt_GQ</item>
-        <item>vun_TZ</item>
-        <item>jmc_TZ</item>
-        <item>en_TV</item>
-        <item>lo</item>
-        <item>fr_FR</item>
-        <item>en_PN</item>
-        <item>en_MH</item>
-        <item>fr_BJ</item>
-        <item>zh__#Hant</item>
-        <item>cu_RU</item>
-        <item>zh_HK_#Hans</item>
-        <item>nl_NL</item>
-        <item>sah_RU</item>
-        <item>en_GY</item>
-        <item>ps_AF</item>
-        <item>bs__#Latn</item>
-        <item>ky</item>
-        <item>mas</item>
-        <item>dyo_SN</item>
-        <item>os</item>
-        <item>bs_BA_#Cyrl</item>
-        <item>nl_CW</item>
-        <item>ar_DZ</item>
-        <item>sk_SK</item>
-        <item>pt_CH</item>
-        <item>fr_GQ</item>
-        <item>ff_CM</item>
-        <item>am</item>
-        <item>en_NG</item>
-        <item>fr_CI</item>
-        <item>ki_KE</item>
-        <item>en_PK</item>
-        <item>zh_CN</item>
-        <item>en_LC</item>
-        <item>rw</item>
-        <item>brx_IN</item>
-        <item>wo_SN</item>
-        <item>iw</item>
-        <item>gv_IM</item>
-        <item>mk_MK</item>
-        <item>en_TT</item>
-        <item>dav</item>
-        <item>sl_SI</item>
-        <item>fr_HT</item>
-        <item>te_IN</item>
-        <item>nl_SX</item>
-        <item>lrc</item>
-        <item>ses</item>
-        <item>ce</item>
-        <item>fr_CG</item>
-        <item>fr_BE</item>
-        <item>jgo_CM</item>
-        <item>mt_MT</item>
-        <item>es_VE</item>
-        <item>mg</item>
-        <item>mr</item>
-        <item>mer_KE</item>
-        <item>ko</item>
-        <item>nds_NL</item>
-        <item>en_BM</item>
-        <item>nb_NO</item>
-        <item>ak</item>
-        <item>seh</item>
-        <item>kde</item>
-        <item>dz</item>
-        <item>kea_CV</item>
-        <item>mgo</item>
-        <item>vi_VN</item>
-        <item>en_VU</item>
-        <item>en_US</item>
-        <item>to_TO</item>
-        <item>mfe_MU</item>
-        <item>seh_MZ</item>
-        <item>fr_BF</item>
-        <item>pa__#Guru</item>
-        <item>it_SM</item>
-        <item>fr_YT</item>
-        <item>gu_IN</item>
-        <item>ii_CN</item>
-        <item>pa_PK_#Arab</item>
-        <item>ast</item>
-        <item>fr_RE</item>
-        <item>fi_FI</item>
-        <item>yue__#Hans</item>
-        <item>ca_FR</item>
-        <item>sr_BA_#Latn</item>
-        <item>bn_IN</item>
-        <item>fr_GP</item>
-        <item>pa</item>
-        <item>zgh_MA</item>
-        <item>uk_UA</item>
-        <item>fr_DJ</item>
-        <item>rn</item>
-        <item>tg</item>
-        <item>rwk</item>
-        <item>hu</item>
-        <item>fr_CH</item>
-        <item>en_NF</item>
-        <item>twq</item>
-        <item>ha_GH</item>
-        <item>sr_XK_#Cyrl</item>
-        <item>bm</item>
-        <item>ar_SS</item>
-        <item>en_GU</item>
-        <item>nl_AW</item>
-        <item>de_BE</item>
-        <item>en_AI</item>
-        <item>en_CM</item>
-        <item>xog_UG</item>
-        <item>cs_CZ</item>
-        <item>tr</item>
-        <item>ca_ES</item>
-        <item>cgg</item>
-        <item>rm_CH</item>
-        <item>nyn_UG</item>
-        <item>ru_MD</item>
-        <item>ms_MY</item>
-        <item>ta_LK</item>
-        <item>ksf</item>
-        <item>en_TO</item>
-        <item>cy</item>
-        <item>en_PG</item>
-        <item>fr_CF</item>
-        <item>pt_TL</item>
-        <item>sq</item>
-        <item>fr</item>
-        <item>tg_TJ</item>
-        <item>en_ER</item>
-        <item>qu_PE</item>
-        <item>sr_BA</item>
-        <item>es_PY</item>
-        <item>de</item>
-        <item>es_EC</item>
-        <item>kok_IN</item>
-        <item>lg_UG</item>
-        <item>zu_ZA</item>
-        <item>fr_TG</item>
-        <item>sr_XK_#Latn</item>
-        <item>en_PH</item>
-        <item>ig_NG</item>
-        <item>fr_GN</item>
-        <item>prg_001</item>
-        <item>cgg_UG</item>
-        <item>zh_MO_#Hans</item>
-        <item>ksh_DE</item>
-        <item>lg</item>
-        <item>ru_RU</item>
-        <item>se_FI</item>
-        <item>ff</item>
-        <item>en_DM</item>
-        <item>en_CK</item>
-        <item>sd</item>
-        <item>ar_MA</item>
-        <item>ga_IE</item>
-        <item>en_BI</item>
-        <item>en_AG</item>
-        <item>fr_TD</item>
-        <item>en_WS</item>
-        <item>fr_LU</item>
-        <item>ebu_KE</item>
-        <item>bem_ZM</item>
-        <item>xog</item>
-        <item>ewo_CM</item>
-        <item>fr_CD</item>
-        <item>so</item>
-        <item>rn_BI</item>
-        <item>en_NA</item>
-        <item>ar_ER</item>
-        <item>kab</item>
-        <item>ms</item>
-        <item>nus</item>
-        <item>sn_ZW</item>
-        <item>prg</item>
-        <item>iw_IL</item>
-        <item>ug</item>
-        <item>es_EA</item>
-        <item>th_TH_TH_#u-nu-thai</item>
-        <item>hi</item>
-        <item>fr_SC</item>
-        <item>ca_IT</item>
-        <item>lag_TZ</item>
-        <item>en_SL</item>
-        <item>teo_KE</item>
-        <item>no_NO</item>
-        <item>ca_AD</item>
-        <item>zh_MO_#Hant</item>
-        <item>en_SH</item>
-        <item>vai</item>
-        <item>qu_BO</item>
-        <item>haw_US</item>
-        <item>vi</item>
-        <item>fr_CA</item>
-        <item>de_LU</item>
-        <item>sq_XK</item>
-        <item>dyo</item>
-        <item>en_KY</item>
-        <item>mt</item>
-        <item>it_CH</item>
-        <item>de_DE</item>
-        <item>si_LK</item>
-        <item>luo_KE</item>
-        <item>en_DK</item>
-        <item>yav</item>
-        <item>so_DJ</item>
-        <item>lt_LT</item>
-        <item>it_IT</item>
-        <item>eo</item>
-        <item>kam</item>
-        <item>ar_SO</item>
-        <item>en_ZW</item>
-        <item>ro</item>
-        <item>eo_001</item>
-        <item>ee</item>
-        <item>en_UM</item>
-        <item>nn_NO</item>
-        <item>fr_MU</item>
-        <item>pl</item>
-        <item>se_SE</item>
-        <item>en_TK</item>
-        <item>en_SI</item>
-        <item>mua_CM</item>
-        <item>ur</item>
-        <item>uz__#Arab</item>
-        <item>vai_LR_#Vaii</item>
-        <item>saq_KE</item>
-        <item>se</item>
-        <item>pt_GW</item>
-        <item>lo_LA</item>
-        <item>chr</item>
-        <item>ar_LB</item>
+        <item>af_NA</item>
         <item>af_ZA</item>
-        <item>ms_SG</item>
-        <item>ee_TG</item>
-        <item>ln_AO</item>
-        <item>be_BY</item>
-        <item>ff_GN</item>
-        <item>yue__#Hant</item>
-        <item>in_ID</item>
-        <item>es_BZ</item>
+        <item>agq</item>
+        <item>agq_CM</item>
+        <item>ak</item>
+        <item>ak_GH</item>
+        <item>am</item>
+        <item>am_ET</item>
+        <item>ar</item>
+        <item>ar_001</item>
         <item>ar_AE</item>
-        <item>hr_HR</item>
-        <item>luy</item>
+        <item>ar_BH</item>
+        <item>ar_DJ</item>
+        <item>ar_DZ</item>
+        <item>ar_EG</item>
+        <item>ar_EH</item>
+        <item>ar_ER</item>
+        <item>ar_IL</item>
+        <item>ar_IQ</item>
+        <item>ar_JO</item>
+        <item>ar_KM</item>
+        <item>ar_KW</item>
+        <item>ar_LB</item>
+        <item>ar_LY</item>
+        <item>ar_MA</item>
+        <item>ar_MR</item>
+        <item>ar_OM</item>
+        <item>ar_PS</item>
+        <item>ar_QA</item>
+        <item>ar_SA</item>
+        <item>ar_SD</item>
+        <item>ar_SO</item>
+        <item>ar_SS</item>
+        <item>ar_SY</item>
+        <item>ar_TD</item>
+        <item>ar_TN</item>
+        <item>ar_YE</item>
         <item>as</item>
-        <item>rof_TZ</item>
-        <item>it</item>
-        <item>pt_CV</item>
-        <item>ks_IN</item>
-        <item>uk</item>
-        <item>my_MM</item>
-        <item>ur_PK</item>
-        <item>mn_MN</item>
+        <item>as_IN</item>
+        <item>asa</item>
+        <item>asa_TZ</item>
+        <item>ast</item>
+        <item>ast_ES</item>
+        <item>az</item>
+        <item>az_AZ_#Cyrl</item>
+        <item>az_AZ_#Latn</item>
+        <item>az__#Cyrl</item>
+        <item>az__#Latn</item>
+        <item>bas</item>
+        <item>bas_CM</item>
+        <item>be</item>
+        <item>be_BY</item>
+        <item>bem</item>
+        <item>bem_ZM</item>
+        <item>bez</item>
+        <item>bez_TZ</item>
+        <item>bg</item>
+        <item>bg_BG</item>
+        <item>bm</item>
+        <item>bm_ML</item>
+        <item>bn</item>
+        <item>bn_BD</item>
+        <item>bn_IN</item>
+        <item>bo</item>
+        <item>bo_CN</item>
+        <item>bo_IN</item>
+        <item>br</item>
+        <item>br_FR</item>
+        <item>brx</item>
+        <item>brx_IN</item>
+        <item>bs</item>
+        <item>bs_BA_#Cyrl</item>
+        <item>bs_BA_#Latn</item>
+        <item>bs__#Cyrl</item>
+        <item>bs__#Latn</item>
+        <item>ca</item>
+        <item>ca_AD</item>
+        <item>ca_ES</item>
+        <item>ca_ES_VALENCIA</item>
+        <item>ca_FR</item>
+        <item>ca_IT</item>
+        <item>ccp</item>
+        <item>ccp_BD</item>
+        <item>ccp_IN</item>
+        <item>ce</item>
+        <item>ce_RU</item>
+        <item>cgg</item>
+        <item>cgg_UG</item>
+        <item>chr</item>
+        <item>chr_US</item>
+        <item>ckb</item>
+        <item>ckb_IQ</item>
+        <item>ckb_IR</item>
+        <item>cs</item>
+        <item>cs_CZ</item>
+        <item>cu</item>
+        <item>cu_RU</item>
+        <item>cy</item>
+        <item>cy_GB</item>
+        <item>da</item>
         <item>da_DK</item>
-        <item>en_FM</item>
-        <item>es_PR</item>
-        <item>wae_CH</item>
-        <item>mzn</item>
+        <item>da_GL</item>
+        <item>dav</item>
+        <item>dav_KE</item>
+        <item>de</item>
+        <item>de_AT</item>
+        <item>de_BE</item>
+        <item>de_CH</item>
+        <item>de_DE</item>
+        <item>de_IT</item>
+        <item>de_LI</item>
+        <item>de_LU</item>
+        <item>dje</item>
+        <item>dje_NE</item>
+        <item>dsb</item>
+        <item>dsb_DE</item>
+        <item>dua</item>
+        <item>dua_CM</item>
+        <item>dyo</item>
+        <item>dyo_SN</item>
+        <item>dz</item>
+        <item>dz_BT</item>
+        <item>ebu</item>
+        <item>ebu_KE</item>
+        <item>ee</item>
+        <item>ee_GH</item>
+        <item>ee_TG</item>
+        <item>el</item>
+        <item>el_CY</item>
+        <item>el_GR</item>
+        <item>en</item>
+        <item>en_001</item>
+        <item>en_150</item>
+        <item>en_AG</item>
+        <item>en_AI</item>
+        <item>en_AS</item>
+        <item>en_AT</item>
+        <item>en_AU</item>
+        <item>en_BB</item>
         <item>en_BE</item>
-        <item>ii</item>
-        <item>tt</item>
+        <item>en_BI</item>
+        <item>en_BM</item>
+        <item>en_BS</item>
+        <item>en_BW</item>
+        <item>en_BZ</item>
+        <item>en_CA</item>
+        <item>en_CC</item>
+        <item>en_CH</item>
+        <item>en_CK</item>
+        <item>en_CM</item>
+        <item>en_CX</item>
+        <item>en_CY</item>
+        <item>en_DE</item>
+        <item>en_DG</item>
+        <item>en_DK</item>
+        <item>en_DM</item>
+        <item>en_ER</item>
+        <item>en_FI</item>
+        <item>en_FJ</item>
+        <item>en_FK</item>
+        <item>en_FM</item>
+        <item>en_GB</item>
+        <item>en_GD</item>
+        <item>en_GG</item>
+        <item>en_GH</item>
+        <item>en_GI</item>
+        <item>en_GM</item>
+        <item>en_GU</item>
+        <item>en_GY</item>
+        <item>en_HK</item>
+        <item>en_IE</item>
+        <item>en_IL</item>
+        <item>en_IM</item>
+        <item>en_IN</item>
+        <item>en_IO</item>
+        <item>en_JE</item>
+        <item>en_JM</item>
+        <item>en_KE</item>
+        <item>en_KI</item>
+        <item>en_KN</item>
+        <item>en_KY</item>
+        <item>en_LC</item>
+        <item>en_LR</item>
+        <item>en_LS</item>
+        <item>en_MG</item>
+        <item>en_MH</item>
+        <item>en_MO</item>
+        <item>en_MP</item>
+        <item>en_MS</item>
+        <item>en_MT</item>
+        <item>en_MU</item>
+        <item>en_MW</item>
+        <item>en_MY</item>
+        <item>en_NA</item>
+        <item>en_NF</item>
+        <item>en_NG</item>
+        <item>en_NL</item>
+        <item>en_NR</item>
+        <item>en_NU</item>
+        <item>en_NZ</item>
+        <item>en_PG</item>
+        <item>en_PH</item>
+        <item>en_PK</item>
+        <item>en_PN</item>
+        <item>en_PR</item>
+        <item>en_PW</item>
+        <item>en_RW</item>
+        <item>en_SB</item>
+        <item>en_SC</item>
+        <item>en_SD</item>
+        <item>en_SE</item>
+        <item>en_SG</item>
+        <item>en_SH</item>
+        <item>en_SI</item>
+        <item>en_SL</item>
+        <item>en_SS</item>
+        <item>en_SX</item>
+        <item>en_SZ</item>
+        <item>en_TC</item>
+        <item>en_TK</item>
+        <item>en_TO</item>
+        <item>en_TT</item>
+        <item>en_TV</item>
+        <item>en_TZ</item>
+        <item>en_UG</item>
+        <item>en_UM</item>
+        <item>en_US</item>
+        <item>en_US_POSIX</item>
+        <item>en_VC</item>
+        <item>en_VG</item>
+        <item>en_VI</item>
+        <item>en_VU</item>
+        <item>en_WS</item>
+        <item>en_ZA</item>
+        <item>en_ZM</item>
+        <item>en_ZW</item>
+        <item>eo</item>
+        <item>eo_001</item>
+        <item>es</item>
+        <item>es_419</item>
+        <item>es_AR</item>
+        <item>es_BO</item>
+        <item>es_BR</item>
+        <item>es_BZ</item>
+        <item>es_CL</item>
+        <item>es_CO</item>
+        <item>es_CR</item>
+        <item>es_CU</item>
+        <item>es_DO</item>
+        <item>es_EA</item>
+        <item>es_EC</item>
+        <item>es_ES</item>
+        <item>es_GQ</item>
+        <item>es_GT</item>
+        <item>es_HN</item>
+        <item>es_IC</item>
+        <item>es_MX</item>
+        <item>es_NI</item>
+        <item>es_PA</item>
+        <item>es_PE</item>
+        <item>es_PH</item>
+        <item>es_PR</item>
+        <item>es_PY</item>
+        <item>es_SV</item>
+        <item>es_US</item>
+        <item>es_UY</item>
+        <item>es_VE</item>
+        <item>et</item>
+        <item>et_EE</item>
+        <item>eu</item>
+        <item>eu_ES</item>
+        <item>ewo</item>
+        <item>ewo_CM</item>
+        <item>fa</item>
+        <item>fa_AF</item>
+        <item>fa_IR</item>
+        <item>ff</item>
+        <item>ff_CM</item>
+        <item>ff_GN</item>
+        <item>ff_MR</item>
+        <item>ff_SN</item>
+        <item>fi</item>
+        <item>fi_FI</item>
+        <item>fil</item>
+        <item>fil_PH</item>
+        <item>fo</item>
+        <item>fo_DK</item>
+        <item>fo_FO</item>
+        <item>fr</item>
+        <item>fr_BE</item>
+        <item>fr_BF</item>
+        <item>fr_BI</item>
+        <item>fr_BJ</item>
+        <item>fr_BL</item>
+        <item>fr_CA</item>
+        <item>fr_CD</item>
+        <item>fr_CF</item>
+        <item>fr_CG</item>
+        <item>fr_CH</item>
+        <item>fr_CI</item>
+        <item>fr_CM</item>
+        <item>fr_DJ</item>
+        <item>fr_DZ</item>
+        <item>fr_FR</item>
+        <item>fr_GA</item>
+        <item>fr_GF</item>
+        <item>fr_GN</item>
+        <item>fr_GP</item>
+        <item>fr_GQ</item>
+        <item>fr_HT</item>
+        <item>fr_KM</item>
+        <item>fr_LU</item>
+        <item>fr_MA</item>
+        <item>fr_MC</item>
+        <item>fr_MF</item>
+        <item>fr_MG</item>
+        <item>fr_ML</item>
+        <item>fr_MQ</item>
+        <item>fr_MR</item>
+        <item>fr_MU</item>
+        <item>fr_NC</item>
+        <item>fr_NE</item>
+        <item>fr_PF</item>
+        <item>fr_PM</item>
+        <item>fr_RE</item>
+        <item>fr_RW</item>
+        <item>fr_SC</item>
+        <item>fr_SN</item>
+        <item>fr_SY</item>
+        <item>fr_TD</item>
+        <item>fr_TG</item>
+        <item>fr_TN</item>
+        <item>fr_VU</item>
         <item>fr_WF</item>
-        <item>ru_BY</item>
+        <item>fr_YT</item>
+        <item>fur</item>
+        <item>fur_IT</item>
+        <item>fy</item>
+        <item>fy_NL</item>
+        <item>ga</item>
+        <item>ga_IE</item>
+        <item>gd</item>
+        <item>gd_GB</item>
+        <item>gl</item>
+        <item>gl_ES</item>
+        <item>gsw</item>
+        <item>gsw_CH</item>
+        <item>gsw_FR</item>
+        <item>gsw_LI</item>
+        <item>gu</item>
+        <item>gu_IN</item>
+        <item>guz</item>
+        <item>guz_KE</item>
+        <item>gv</item>
+        <item>gv_IM</item>
+        <item>ha</item>
+        <item>ha_GH</item>
+        <item>ha_NE</item>
+        <item>ha_NG</item>
+        <item>haw</item>
+        <item>haw_US</item>
+        <item>hi</item>
+        <item>hi_IN</item>
+        <item>hr</item>
+        <item>hr_BA</item>
+        <item>hr_HR</item>
+        <item>hsb</item>
+        <item>hsb_DE</item>
+        <item>hu</item>
+        <item>hu_HU</item>
+        <item>hy</item>
+        <item>hy_AM</item>
+        <item>ig</item>
+        <item>ig_NG</item>
+        <item>ii</item>
+        <item>ii_CN</item>
+        <item>in</item>
+        <item>in_ID</item>
+        <item>is</item>
+        <item>is_IS</item>
+        <item>it</item>
+        <item>it_CH</item>
+        <item>it_IT</item>
+        <item>it_SM</item>
+        <item>it_VA</item>
+        <item>iw</item>
+        <item>iw_IL</item>
+        <item>ja</item>
+        <item>ja_JP</item>
+        <item>ja_JP_JP_#u-ca-japanese</item>
+        <item>jgo</item>
+        <item>jgo_CM</item>
+        <item>ji</item>
+        <item>ji_001</item>
+        <item>jmc</item>
+        <item>jmc_TZ</item>
+        <item>ka</item>
+        <item>ka_GE</item>
+        <item>kab</item>
+        <item>kab_DZ</item>
+        <item>kam</item>
+        <item>kam_KE</item>
+        <item>kde</item>
+        <item>kde_TZ</item>
+        <item>kea</item>
+        <item>kea_CV</item>
+        <item>khq</item>
+        <item>khq_ML</item>
+        <item>ki</item>
+        <item>ki_KE</item>
+        <item>kk</item>
+        <item>kk_KZ</item>
+        <item>kkj</item>
+        <item>kkj_CM</item>
+        <item>kl</item>
+        <item>kl_GL</item>
+        <item>kln</item>
+        <item>kln_KE</item>
+        <item>km</item>
+        <item>km_KH</item>
+        <item>kn</item>
+        <item>kn_IN</item>
+        <item>ko</item>
+        <item>ko_KP</item>
+        <item>ko_KR</item>
+        <item>kok</item>
+        <item>kok_IN</item>
+        <item>ks</item>
+        <item>ks_IN</item>
+        <item>ksb</item>
+        <item>ksb_TZ</item>
+        <item>ksf</item>
+        <item>ksf_CM</item>
+        <item>ksh</item>
+        <item>ksh_DE</item>
+        <item>kw</item>
+        <item>kw_GB</item>
+        <item>ky</item>
+        <item>ky_KG</item>
+        <item>lag</item>
+        <item>lag_TZ</item>
+        <item>lb</item>
+        <item>lb_LU</item>
+        <item>lg</item>
+        <item>lg_UG</item>
+        <item>lkt</item>
+        <item>lkt_US</item>
+        <item>ln</item>
+        <item>ln_AO</item>
+        <item>ln_CD</item>
+        <item>ln_CF</item>
+        <item>ln_CG</item>
+        <item>lo</item>
+        <item>lo_LA</item>
+        <item>lrc</item>
+        <item>lrc_IQ</item>
+        <item>lrc_IR</item>
+        <item>lt</item>
+        <item>lt_LT</item>
+        <item>lu</item>
+        <item>lu_CD</item>
+        <item>luo</item>
+        <item>luo_KE</item>
+        <item>luy</item>
+        <item>luy_KE</item>
+        <item>lv</item>
+        <item>lv_LV</item>
+        <item>mas</item>
+        <item>mas_KE</item>
+        <item>mas_TZ</item>
+        <item>mer</item>
+        <item>mer_KE</item>
+        <item>mfe</item>
+        <item>mfe_MU</item>
+        <item>mg</item>
+        <item>mg_MG</item>
+        <item>mgh</item>
+        <item>mgh_MZ</item>
+        <item>mgo</item>
+        <item>mgo_CM</item>
+        <item>mk</item>
+        <item>mk_MK</item>
+        <item>ml</item>
+        <item>ml_IN</item>
+        <item>mn</item>
+        <item>mn_MN</item>
+        <item>mr</item>
+        <item>mr_IN</item>
+        <item>ms</item>
+        <item>ms_BN</item>
+        <item>ms_MY</item>
+        <item>ms_SG</item>
+        <item>mt</item>
+        <item>mt_MT</item>
+        <item>mua</item>
+        <item>mua_CM</item>
+        <item>my</item>
+        <item>my_MM</item>
+        <item>mzn</item>
         <item>mzn_IR</item>
         <item>naq</item>
-        <item>fo_DK</item>
-        <item>en_SG</item>
-        <item>ee_GH</item>
-        <item>ar_BH</item>
-        <item>kln_KE</item>
-        <item>tzm</item>
-        <item>fur</item>
-        <item>om</item>
-        <item>hi_IN</item>
-        <item>en_CH</item>
-        <item>asa</item>
-        <item>yo_BJ</item>
-        <item>fo_FO</item>
-        <item>ast_ES</item>
-        <item>fr_KM</item>
-        <item>bez_TZ</item>
-        <item>fr_MQ</item>
-        <item>en_SD</item>
-        <item>es_AR</item>
-        <item>en_MY</item>
-        <item>ja_JP_JP_#u-ca-japanese</item>
-        <item>es_SV</item>
-        <item>pt_BR</item>
-        <item>ml_IN</item>
-        <item>sbp_TZ</item>
-        <item>fil</item>
-        <item>en_FK</item>
-        <item>uz__#Cyrl</item>
-        <item>is_IS</item>
-        <item>yue_HK_#Hant</item>
-        <item>hy_AM</item>
-        <item>en_GM</item>
-        <item>en_DG</item>
-        <item>fo</item>
-        <item>ne_NP</item>
-        <item>hr</item>
-        <item>pt_ST</item>
-        <item>ak_GH</item>
-        <item>lt</item>
-        <item>uz_AF_#Arab</item>
-        <item>fur_IT</item>
-        <item>ta_IN</item>
-        <item>ccp</item>
-        <item>en_SE</item>
-        <item>fr_GF</item>
-        <item>lkt</item>
-        <item>zh_CN_#Hans</item>
-        <item>is</item>
-        <item>es_419</item>
-        <item>si</item>
-        <item>pt_AO</item>
-        <item>en_001</item>
-        <item>en</item>
-        <item>guz_KE</item>
-        <item>gsw_LI</item>
-        <item>ccp_BD</item>
-        <item>es_IC</item>
-        <item>ca</item>
-        <item>ru_KG</item>
-        <item>fr_MR</item>
-        <item>ar_TN</item>
-        <item>ks</item>
-        <item>zh_TW_#Hant</item>
-        <item>bm_ML</item>
-        <item>kw_GB</item>
-        <item>ug_CN</item>
-        <item>as_IN</item>
-        <item>es_BR</item>
-        <item>zh_HK</item>
-        <item>khq_ML</item>
-        <item>sw_KE</item>
-        <item>en_SB</item>
-        <item>th_TH</item>
-        <item>rw_RW</item>
-        <item>chr_US</item>
-        <item>shi_MA_#Tfng</item>
-        <item>ar_IQ</item>
-        <item>nyn</item>
-        <item>yue</item>
-        <item>jmc</item>
-        <item>en_MW</item>
         <item>naq_NA</item>
-        <item>mk</item>
-        <item>en_IO</item>
-        <item>ar_QA</item>
-        <item>en_DE</item>
-        <item>pa__#Arab</item>
-        <item>en_CC</item>
-        <item>bs</item>
-        <item>ro_MD</item>
-        <item>en_FI</item>
-        <item>pt_PT</item>
-        <item>fy</item>
-        <item>az_AZ_#Cyrl</item>
-        <item>th</item>
-        <item>dav_KE</item>
-        <item>ckb_IQ</item>
-        <item>shi_MA_#Latn</item>
-        <item>es_CU</item>
-        <item>ar</item>
-        <item>en_SC</item>
-        <item>en_VI</item>
-        <item>haw</item>
-        <item>eu_ES</item>
-        <item>en_UG</item>
-        <item>en_NZ</item>
-        <item>dje</item>
-        <item>es_UY</item>
-        <item>bas</item>
-        <item>mas_KE</item>
-        <item>ru_UA</item>
-        <item>sg_CF</item>
-        <item>el_GR</item>
-        <item>yav_CM</item>
-        <item>uz__#Latn</item>
-        <item>sg</item>
-        <item>da_GL</item>
-        <item>en_FJ</item>
-        <item>de_LI</item>
-        <item>en_BB</item>
-        <item>km_KH</item>
-        <item>smn_FI</item>
-        <item>hr_BA</item>
-        <item>de_AT</item>
-        <item>ckb_IR</item>
-        <item>nl</item>
-        <item>lu_CD</item>
-        <item>ca_ES_VALENCIA</item>
-        <item>ar_001</item>
-        <item>so_SO</item>
-        <item>lv_LV</item>
-        <item>ckb</item>
-        <item>es_CR</item>
-        <item>fr_GA</item>
-        <item>ar_KW</item>
-        <item>sr</item>
-        <item>ar_LY</item>
-        <item>sr_RS_#Cyrl</item>
-        <item>bem</item>
-        <item>en_MU</item>
-        <item>da</item>
-        <item>wae</item>
-        <item>gl_ES</item>
-        <item>en_IM</item>
-        <item>az_AZ_#Latn</item>
-        <item>en_LS</item>
-        <item>ig</item>
-        <item>en_HK</item>
-        <item>en_GI</item>
-        <item>ce_RU</item>
-        <item>en_CA</item>
-        <item>gd</item>
-        <item>ka_GE</item>
-        <item>fr_SY</item>
-        <item>sw_TZ</item>
-        <item>fr_RW</item>
-        <item>so_ET</item>
-        <item>nl_BE</item>
-        <item>ar_DJ</item>
-        <item>mg_MG</item>
-        <item>cy_GB</item>
-        <item>en_VG</item>
-        <item>cu</item>
-        <item>os_RU</item>
-        <item>sr_RS_#Latn</item>
-        <item>en_TC</item>
-        <item>ky_KG</item>
-        <item>sv_AX</item>
-        <item>af_NA</item>
-        <item>vun</item>
-        <item>en_IN</item>
-        <item>lu</item>
-        <item>ki</item>
-        <item>yo</item>
-        <item>es_NI</item>
         <item>nb</item>
-        <item>ff_MR</item>
-        <item>sd_PK</item>
-        <item>mas_TZ</item>
-        <item>ti</item>
-        <item>kok</item>
-        <item>ewo</item>
-        <item>ms_BN</item>
-        <item>ccp_IN</item>
-        <item>br_FR</item>
-    </array>
-
-    <array name="languageCodes">
-        <item>aa</item>
-        <item>ab</item>
-        <item>ae</item>
-        <item>af</item>
-        <item>ak</item>
-        <item>am</item>
-        <item>an</item>
-        <item>ar</item>
-        <item>as</item>
-        <item>av</item>
-        <item>ay</item>
-        <item>az</item>
-        <item>ba</item>
-        <item>be</item>
-        <item>bg</item>
-        <item>bh</item>
-        <item>bi</item>
-        <item>bm</item>
-        <item>bn</item>
-        <item>bo</item>
-        <item>br</item>
-        <item>bs</item>
-        <item>ca</item>
-        <item>ce</item>
-        <item>ch</item>
-        <item>co</item>
-        <item>cr</item>
-        <item>cs</item>
-        <item>cu</item>
-        <item>cv</item>
-        <item>cy</item>
-        <item>da</item>
-        <item>de</item>
-        <item>dv</item>
-        <item>dz</item>
-        <item>ee</item>
-        <item>el</item>
-        <item>en</item>
-        <item>eo</item>
-        <item>es</item>
-        <item>et</item>
-        <item>eu</item>
-        <item>fa</item>
-        <item>ff</item>
-        <item>fi</item>
-        <item>fj</item>
-        <item>fo</item>
-        <item>fr</item>
-        <item>fy</item>
-        <item>ga</item>
-        <item>gd</item>
-        <item>gl</item>
-        <item>gn</item>
-        <item>gu</item>
-        <item>gv</item>
-        <item>ha</item>
-        <item>he</item>
-        <item>hi</item>
-        <item>ho</item>
-        <item>hr</item>
-        <item>ht</item>
-        <item>hu</item>
-        <item>hy</item>
-        <item>hz</item>
-        <item>ia</item>
-        <item>id</item>
-        <item>ie</item>
-        <item>ig</item>
-        <item>ii</item>
-        <item>ik</item>
-        <item>in</item>
-        <item>io</item>
-        <item>is</item>
-        <item>it</item>
-        <item>iu</item>
-        <item>iw</item>
-        <item>ja</item>
-        <item>ji</item>
-        <item>jv</item>
-        <item>ka</item>
-        <item>kg</item>
-        <item>ki</item>
-        <item>kj</item>
-        <item>kk</item>
-        <item>kl</item>
-        <item>km</item>
-        <item>kn</item>
-        <item>ko</item>
-        <item>kr</item>
-        <item>ks</item>
-        <item>ku</item>
-        <item>kv</item>
-        <item>kw</item>
-        <item>ky</item>
-        <item>la</item>
-        <item>lb</item>
-        <item>lg</item>
-        <item>li</item>
-        <item>ln</item>
-        <item>lo</item>
-        <item>lt</item>
-        <item>lu</item>
-        <item>lv</item>
-        <item>mg</item>
-        <item>mh</item>
-        <item>mi</item>
-        <item>mk</item>
-        <item>ml</item>
-        <item>mn</item>
-        <item>mo</item>
-        <item>mr</item>
-        <item>ms</item>
-        <item>mt</item>
-        <item>my</item>
-        <item>na</item>
-        <item>nb</item>
+        <item>nb_NO</item>
+        <item>nb_SJ</item>
         <item>nd</item>
+        <item>nd_ZW</item>
+        <item>nds</item>
+        <item>nds_DE</item>
+        <item>nds_NL</item>
         <item>ne</item>
-        <item>ng</item>
+        <item>ne_IN</item>
+        <item>ne_NP</item>
         <item>nl</item>
+        <item>nl_AW</item>
+        <item>nl_BE</item>
+        <item>nl_BQ</item>
+        <item>nl_CW</item>
+        <item>nl_NL</item>
+        <item>nl_SR</item>
+        <item>nl_SX</item>
+        <item>nmg</item>
+        <item>nmg_CM</item>
         <item>nn</item>
+        <item>nn_NO</item>
+        <item>nnh</item>
+        <item>nnh_CM</item>
         <item>no</item>
-        <item>nr</item>
-        <item>nv</item>
-        <item>ny</item>
-        <item>oc</item>
-        <item>oj</item>
+        <item>no_NO</item>
+        <item>no_NO_NY</item>
+        <item>nus</item>
+        <item>nus_SS</item>
+        <item>nyn</item>
+        <item>nyn_UG</item>
         <item>om</item>
+        <item>om_ET</item>
+        <item>om_KE</item>
         <item>or</item>
+        <item>or_IN</item>
         <item>os</item>
+        <item>os_GE</item>
+        <item>os_RU</item>
         <item>pa</item>
-        <item>pi</item>
+        <item>pa_IN_#Guru</item>
+        <item>pa_PK_#Arab</item>
+        <item>pa__#Arab</item>
+        <item>pa__#Guru</item>
         <item>pl</item>
+        <item>pl_PL</item>
+        <item>prg</item>
+        <item>prg_001</item>
         <item>ps</item>
+        <item>ps_AF</item>
         <item>pt</item>
+        <item>pt_AO</item>
+        <item>pt_BR</item>
+        <item>pt_CH</item>
+        <item>pt_CV</item>
+        <item>pt_GQ</item>
+        <item>pt_GW</item>
+        <item>pt_LU</item>
+        <item>pt_MO</item>
+        <item>pt_MZ</item>
+        <item>pt_PT</item>
+        <item>pt_ST</item>
+        <item>pt_TL</item>
         <item>qu</item>
+        <item>qu_BO</item>
+        <item>qu_EC</item>
+        <item>qu_PE</item>
         <item>rm</item>
+        <item>rm_CH</item>
         <item>rn</item>
+        <item>rn_BI</item>
         <item>ro</item>
+        <item>ro_MD</item>
+        <item>ro_RO</item>
+        <item>rof</item>
+        <item>rof_TZ</item>
         <item>ru</item>
+        <item>ru_BY</item>
+        <item>ru_KG</item>
+        <item>ru_KZ</item>
+        <item>ru_MD</item>
+        <item>ru_RU</item>
+        <item>ru_UA</item>
         <item>rw</item>
-        <item>sa</item>
-        <item>sc</item>
+        <item>rw_RW</item>
+        <item>rwk</item>
+        <item>rwk_TZ</item>
+        <item>sah</item>
+        <item>sah_RU</item>
+        <item>saq</item>
+        <item>saq_KE</item>
+        <item>sbp</item>
+        <item>sbp_TZ</item>
         <item>sd</item>
+        <item>sd_PK</item>
         <item>se</item>
+        <item>se_FI</item>
+        <item>se_NO</item>
+        <item>se_SE</item>
+        <item>seh</item>
+        <item>seh_MZ</item>
+        <item>ses</item>
+        <item>ses_ML</item>
         <item>sg</item>
+        <item>sg_CF</item>
+        <item>shi</item>
+        <item>shi_MA_#Latn</item>
+        <item>shi_MA_#Tfng</item>
+        <item>shi__#Latn</item>
+        <item>shi__#Tfng</item>
         <item>si</item>
+        <item>si_LK</item>
         <item>sk</item>
+        <item>sk_SK</item>
         <item>sl</item>
-        <item>sm</item>
+        <item>sl_SI</item>
+        <item>smn</item>
+        <item>smn_FI</item>
         <item>sn</item>
+        <item>sn_ZW</item>
         <item>so</item>
+        <item>so_DJ</item>
+        <item>so_ET</item>
+        <item>so_KE</item>
+        <item>so_SO</item>
         <item>sq</item>
+        <item>sq_AL</item>
+        <item>sq_MK</item>
+        <item>sq_XK</item>
         <item>sr</item>
-        <item>ss</item>
-        <item>st</item>
-        <item>su</item>
+        <item>sr_BA</item>
+        <item>sr_BA_#Cyrl</item>
+        <item>sr_BA_#Latn</item>
+        <item>sr_CS</item>
+        <item>sr_ME</item>
+        <item>sr_ME_#Cyrl</item>
+        <item>sr_ME_#Latn</item>
+        <item>sr_RS</item>
+        <item>sr_RS_#Cyrl</item>
+        <item>sr_RS_#Latn</item>
+        <item>sr_XK_#Cyrl</item>
+        <item>sr_XK_#Latn</item>
+        <item>sr__#Cyrl</item>
+        <item>sr__#Latn</item>
         <item>sv</item>
+        <item>sv_AX</item>
+        <item>sv_FI</item>
+        <item>sv_SE</item>
         <item>sw</item>
+        <item>sw_CD</item>
+        <item>sw_KE</item>
+        <item>sw_TZ</item>
+        <item>sw_UG</item>
         <item>ta</item>
+        <item>ta_IN</item>
+        <item>ta_LK</item>
+        <item>ta_MY</item>
+        <item>ta_SG</item>
         <item>te</item>
+        <item>te_IN</item>
+        <item>teo</item>
+        <item>teo_KE</item>
+        <item>teo_UG</item>
         <item>tg</item>
+        <item>tg_TJ</item>
         <item>th</item>
+        <item>th_TH</item>
+        <item>th_TH_TH_#u-nu-thai</item>
         <item>ti</item>
+        <item>ti_ER</item>
+        <item>ti_ET</item>
         <item>tk</item>
-        <item>tl</item>
-        <item>tn</item>
+        <item>tk_TM</item>
         <item>to</item>
+        <item>to_TO</item>
         <item>tr</item>
-        <item>ts</item>
+        <item>tr_CY</item>
+        <item>tr_TR</item>
         <item>tt</item>
-        <item>tw</item>
-        <item>ty</item>
+        <item>tt_RU</item>
+        <item>twq</item>
+        <item>twq_NE</item>
+        <item>tzm</item>
+        <item>tzm_MA</item>
         <item>ug</item>
+        <item>ug_CN</item>
         <item>uk</item>
+        <item>uk_UA</item>
         <item>ur</item>
+        <item>ur_IN</item>
+        <item>ur_PK</item>
         <item>uz</item>
-        <item>ve</item>
+        <item>uz_AF_#Arab</item>
+        <item>uz_UZ_#Cyrl</item>
+        <item>uz_UZ_#Latn</item>
+        <item>uz__#Arab</item>
+        <item>uz__#Cyrl</item>
+        <item>uz__#Latn</item>
+        <item>vai</item>
+        <item>vai_LR_#Latn</item>
+        <item>vai_LR_#Vaii</item>
+        <item>vai__#Latn</item>
+        <item>vai__#Vaii</item>
         <item>vi</item>
+        <item>vi_VN</item>
         <item>vo</item>
-        <item>wa</item>
+        <item>vo_001</item>
+        <item>vun</item>
+        <item>vun_TZ</item>
+        <item>wae</item>
+        <item>wae_CH</item>
         <item>wo</item>
-        <item>xh</item>
-        <item>yi</item>
+        <item>wo_SN</item>
+        <item>xog</item>
+        <item>xog_UG</item>
+        <item>yav</item>
+        <item>yav_CM</item>
         <item>yo</item>
-        <item>za</item>
+        <item>yo_BJ</item>
+        <item>yo_NG</item>
+        <item>yue</item>
+        <item>yue_CN_#Hans</item>
+        <item>yue_HK_#Hant</item>
+        <item>yue__#Hans</item>
+        <item>yue__#Hant</item>
+        <item>zgh</item>
+        <item>zgh_MA</item>
         <item>zh</item>
+        <item>zh_CN</item>
+        <item>zh_CN_#Hans</item>
+        <item>zh_HK</item>
+        <item>zh_HK_#Hans</item>
+        <item>zh_HK_#Hant</item>
+        <item>zh_MO_#Hans</item>
+        <item>zh_MO_#Hant</item>
+        <item>zh_SG</item>
+        <item>zh_SG_#Hans</item>
+        <item>zh_TW</item>
+        <item>zh_TW_#Hant</item>
+        <item>zh__#Hans</item>
+        <item>zh__#Hant</item>
         <item>zu</item>
-    </array>
-
-    <array name="countryCodes">
-        <item>AD</item>
-        <item>AE</item>
-        <item>AF</item>
-        <item>AG</item>
-        <item>AI</item>
-        <item>AL</item>
-        <item>AM</item>
-        <item>AO</item>
-        <item>AQ</item>
-        <item>AR</item>
-        <item>AS</item>
-        <item>AT</item>
-        <item>AU</item>
-        <item>AW</item>
-        <item>AX</item>
-        <item>AZ</item>
-        <item>BA</item>
-        <item>BB</item>
-        <item>BD</item>
-        <item>BE</item>
-        <item>BF</item>
-        <item>BG</item>
-        <item>BH</item>
-        <item>BI</item>
-        <item>BJ</item>
-        <item>BL</item>
-        <item>BM</item>
-        <item>BN</item>
-        <item>BO</item>
-        <item>BQ</item>
-        <item>BR</item>
-        <item>BS</item>
-        <item>BT</item>
-        <item>BV</item>
-        <item>BW</item>
-        <item>BY</item>
-        <item>BZ</item>
-        <item>CA</item>
-        <item>CC</item>
-        <item>CD</item>
-        <item>CF</item>
-        <item>CG</item>
-        <item>CH</item>
-        <item>CI</item>
-        <item>CK</item>
-        <item>CL</item>
-        <item>CM</item>
-        <item>CN</item>
-        <item>CO</item>
-        <item>CR</item>
-        <item>CU</item>
-        <item>CV</item>
-        <item>CW</item>
-        <item>CX</item>
-        <item>CY</item>
-        <item>CZ</item>
-        <item>DE</item>
-        <item>DJ</item>
-        <item>DK</item>
-        <item>DM</item>
-        <item>DO</item>
-        <item>DZ</item>
-        <item>EC</item>
-        <item>EE</item>
-        <item>EG</item>
-        <item>EH</item>
-        <item>ER</item>
-        <item>ES</item>
-        <item>ET</item>
-        <item>FI</item>
-        <item>FJ</item>
-        <item>FK</item>
-        <item>FM</item>
-        <item>FO</item>
-        <item>FR</item>
-        <item>GA</item>
-        <item>GB</item>
-        <item>GD</item>
-        <item>GE</item>
-        <item>GF</item>
-        <item>GG</item>
-        <item>GH</item>
-        <item>GI</item>
-        <item>GL</item>
-        <item>GM</item>
-        <item>GN</item>
-        <item>GP</item>
-        <item>GQ</item>
-        <item>GR</item>
-        <item>GS</item>
-        <item>GT</item>
-        <item>GU</item>
-        <item>GW</item>
-        <item>GY</item>
-        <item>HK</item>
-        <item>HM</item>
-        <item>HN</item>
-        <item>HR</item>
-        <item>HT</item>
-        <item>HU</item>
-        <item>ID</item>
-        <item>IE</item>
-        <item>IL</item>
-        <item>IM</item>
-        <item>IN</item>
-        <item>IO</item>
-        <item>IQ</item>
-        <item>IR</item>
-        <item>IS</item>
-        <item>IT</item>
-        <item>JE</item>
-        <item>JM</item>
-        <item>JO</item>
-        <item>JP</item>
-        <item>KE</item>
-        <item>KG</item>
-        <item>KH</item>
-        <item>KI</item>
-        <item>KM</item>
-        <item>KN</item>
-        <item>KP</item>
-        <item>KR</item>
-        <item>KW</item>
-        <item>KY</item>
-        <item>KZ</item>
-        <item>LA</item>
-        <item>LB</item>
-        <item>LC</item>
-        <item>LI</item>
-        <item>LK</item>
-        <item>LR</item>
-        <item>LS</item>
-        <item>LT</item>
-        <item>LU</item>
-        <item>LV</item>
-        <item>LY</item>
-        <item>MA</item>
-        <item>MC</item>
-        <item>MD</item>
-        <item>ME</item>
-        <item>MF</item>
-        <item>MG</item>
-        <item>MH</item>
-        <item>MK</item>
-        <item>ML</item>
-        <item>MM</item>
-        <item>MN</item>
-        <item>MO</item>
-        <item>MP</item>
-        <item>MQ</item>
-        <item>MR</item>
-        <item>MS</item>
-        <item>MT</item>
-        <item>MU</item>
-        <item>MV</item>
-        <item>MW</item>
-        <item>MX</item>
-        <item>MY</item>
-        <item>MZ</item>
-        <item>NA</item>
-        <item>NC</item>
-        <item>NE</item>
-        <item>NF</item>
-        <item>NG</item>
-        <item>NI</item>
-        <item>NL</item>
-        <item>NO</item>
-        <item>NP</item>
-        <item>NR</item>
-        <item>NU</item>
-        <item>NZ</item>
-        <item>OM</item>
-        <item>PA</item>
-        <item>PE</item>
-        <item>PF</item>
-        <item>PG</item>
-        <item>PH</item>
-        <item>PK</item>
-        <item>PL</item>
-        <item>PM</item>
-        <item>PN</item>
-        <item>PR</item>
-        <item>PS</item>
-        <item>PT</item>
-        <item>PW</item>
-        <item>PY</item>
-        <item>QA</item>
-        <item>RE</item>
-        <item>RO</item>
-        <item>RS</item>
-        <item>RU</item>
-        <item>RW</item>
-        <item>SA</item>
-        <item>SB</item>
-        <item>SC</item>
-        <item>SD</item>
-        <item>SE</item>
-        <item>SG</item>
-        <item>SH</item>
-        <item>SI</item>
-        <item>SJ</item>
-        <item>SK</item>
-        <item>SL</item>
-        <item>SM</item>
-        <item>SN</item>
-        <item>SO</item>
-        <item>SR</item>
-        <item>SS</item>
-        <item>ST</item>
-        <item>SV</item>
-        <item>SX</item>
-        <item>SY</item>
-        <item>SZ</item>
-        <item>TC</item>
-        <item>TD</item>
-        <item>TF</item>
-        <item>TG</item>
-        <item>TH</item>
-        <item>TJ</item>
-        <item>TK</item>
-        <item>TL</item>
-        <item>TM</item>
-        <item>TN</item>
-        <item>TO</item>
-        <item>TR</item>
-        <item>TT</item>
-        <item>TV</item>
-        <item>TW</item>
-        <item>TZ</item>
-        <item>UA</item>
-        <item>UG</item>
-        <item>UM</item>
-        <item>US</item>
-        <item>UY</item>
-        <item>UZ</item>
-        <item>VA</item>
-        <item>VC</item>
-        <item>VE</item>
-        <item>VG</item>
-        <item>VI</item>
-        <item>VN</item>
-        <item>VU</item>
-        <item>WF</item>
-        <item>WS</item>
-        <item>YE</item>
-        <item>YT</item>
-        <item>ZA</item>
-        <item>ZM</item>
-        <item>ZW</item>
+        <item>zu_ZA</item>
     </array>
 
     <array name="currencyCodes">
         <item>-</item>
-        <item>EUR</item>
         <item>AED</item>
         <item>AFN</item>
-        <item>XCD</item>
-        <item>XCD</item>
         <item>ALL</item>
         <item>AMD</item>
+        <item>ANG</item>
         <item>AOA</item>
         <item>ARS</item>
-        <item>USD</item>
-        <item>EUR</item>
         <item>AUD</item>
         <item>AWG</item>
-        <item>EUR</item>
         <item>AZN</item>
         <item>BAM</item>
         <item>BBD</item>
         <item>BDT</item>
-        <item>EUR</item>
-        <item>XOF</item>
         <item>BGN</item>
         <item>BHD</item>
         <item>BIF</item>
-        <item>XOF</item>
-        <item>EUR</item>
         <item>BMD</item>
         <item>BND</item>
         <item>BOB</item>
-        <item>USD</item>
         <item>BRL</item>
         <item>BSD</item>
-        <item>INR</item>
-        <item>NOK</item>
         <item>BWP</item>
         <item>BYN</item>
         <item>BZD</item>
         <item>CAD</item>
-        <item>AUD</item>
         <item>CDF</item>
-        <item>XAF</item>
-        <item>XAF</item>
         <item>CHF</item>
-        <item>XOF</item>
-        <item>NZD</item>
         <item>CLP</item>
-        <item>XAF</item>
         <item>CNY</item>
         <item>COP</item>
         <item>CRC</item>
         <item>CUP</item>
         <item>CVE</item>
-        <item>ANG</item>
-        <item>AUD</item>
-        <item>EUR</item>
         <item>CZK</item>
-        <item>EUR</item>
         <item>DJF</item>
         <item>DKK</item>
-        <item>XCD</item>
         <item>DOP</item>
         <item>DZD</item>
-        <item>USD</item>
-        <item>EUR</item>
         <item>EGP</item>
-        <item>MAD</item>
         <item>ERN</item>
-        <item>EUR</item>
         <item>ETB</item>
         <item>EUR</item>
         <item>FJD</item>
         <item>FKP</item>
-        <item>USD</item>
-        <item>DKK</item>
-        <item>EUR</item>
-        <item>XAF</item>
         <item>GBP</item>
-        <item>XCD</item>
         <item>GEL</item>
-        <item>EUR</item>
         <item>GGP</item>
         <item>GHS</item>
         <item>GIP</item>
-        <item>DKK</item>
         <item>GMD</item>
         <item>GNF</item>
-        <item>EUR</item>
-        <item>XAF</item>
-        <item>EUR</item>
-        <item>GBP</item>
         <item>GTQ</item>
-        <item>USD</item>
-        <item>XOF</item>
         <item>GYD</item>
         <item>HKD</item>
-        <item>AUD</item>
         <item>HNL</item>
         <item>HRK</item>
         <item>HTG</item>
         <item>HUF</item>
         <item>IDR</item>
-        <item>EUR</item>
         <item>ILS</item>
-        <item>GBP</item>
         <item>INR</item>
-        <item>USD</item>
         <item>IQD</item>
         <item>IRR</item>
         <item>ISK</item>
-        <item>EUR</item>
-        <item>GBP</item>
         <item>JMD</item>
         <item>JOD</item>
         <item>JPY</item>
         <item>KES</item>
         <item>KGS</item>
         <item>KHR</item>
-        <item>AUD</item>
         <item>KMF</item>
-        <item>XCD</item>
         <item>KPW</item>
         <item>KRW</item>
         <item>KWD</item>
@@ -1323,32 +832,18 @@
         <item>KZT</item>
         <item>LAK</item>
         <item>LBP</item>
-        <item>XCD</item>
-        <item>CHF</item>
         <item>LKR</item>
         <item>LRD</item>
         <item>LSL</item>
-        <item>EUR</item>
-        <item>EUR</item>
-        <item>EUR</item>
         <item>LYD</item>
         <item>MAD</item>
-        <item>EUR</item>
         <item>MDL</item>
-        <item>EUR</item>
-        <item>EUR</item>
         <item>MGA</item>
-        <item>USD</item>
         <item>MKD</item>
-        <item>XOF</item>
         <item>MMK</item>
         <item>MNT</item>
         <item>MOP</item>
-        <item>USD</item>
-        <item>EUR</item>
         <item>MRO</item>
-        <item>XCD</item>
-        <item>EUR</item>
         <item>MUR</item>
         <item>MVR</item>
         <item>MWK</item>
@@ -1356,34 +851,20 @@
         <item>MYR</item>
         <item>MZN</item>
         <item>NAD</item>
-        <item>XPF</item>
-        <item>XOF</item>
-        <item>AUD</item>
         <item>NGN</item>
         <item>NIO</item>
-        <item>EUR</item>
         <item>NOK</item>
         <item>NPR</item>
-        <item>AUD</item>
-        <item>NZD</item>
         <item>NZD</item>
         <item>OMR</item>
         <item>PAB</item>
         <item>PEN</item>
-        <item>XPF</item>
         <item>PGK</item>
         <item>PHP</item>
         <item>PKR</item>
         <item>PLN</item>
-        <item>EUR</item>
-        <item>NZD</item>
-        <item>USD</item>
-        <item>JOD</item>
-        <item>EUR</item>
-        <item>USD</item>
         <item>PYG</item>
         <item>QAR</item>
-        <item>EUR</item>
         <item>RON</item>
         <item>RSD</item>
         <item>RUB</item>
@@ -1395,56 +876,37 @@
         <item>SEK</item>
         <item>SGD</item>
         <item>SHP</item>
-        <item>EUR</item>
-        <item>NOK</item>
-        <item>EUR</item>
         <item>SLL</item>
-        <item>EUR</item>
-        <item>XOF</item>
         <item>SOS</item>
         <item>SRD</item>
         <item>SSP</item>
         <item>STD</item>
-        <item>USD</item>
-        <item>ANG</item>
         <item>SYP</item>
         <item>SZL</item>
-        <item>USD</item>
-        <item>XAF</item>
-        <item>EUR</item>
-        <item>XOF</item>
         <item>THB</item>
         <item>TJS</item>
-        <item>NZD</item>
-        <item>USD</item>
         <item>TMT</item>
         <item>TND</item>
         <item>TOP</item>
         <item>TRY</item>
         <item>TTD</item>
-        <item>AUD</item>
         <item>TWD</item>
         <item>TZS</item>
         <item>UAH</item>
         <item>UGX</item>
         <item>USD</item>
-        <item>USD</item>
         <item>UYU</item>
         <item>UZS</item>
-        <item>EUR</item>
-        <item>XCD</item>
         <item>VEF</item>
-        <item>USD</item>
-        <item>USD</item>
         <item>VND</item>
         <item>VUV</item>
+        <item>XAF</item>
+        <item>XCD</item>
+        <item>XOF</item>
         <item>XPF</item>
-        <item>EUR</item>
         <item>YER</item>
-        <item>EUR</item>
         <item>ZAR</item>
         <item>ZMW</item>
-        <item>USD</item>
     </array>
 
 </resources>

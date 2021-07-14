@@ -10,25 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        val formats = arrayOf(
-//                DecimalFormat("# ###,##"), - 100 000 000,97
-//                DecimalFormat("#,###.##"),
-//                DecimalFormat("#,###.###"),
-//                DecimalFormat("#.###,##"), - 100.000.000,97
-//                DecimalFormat("# ###.##"), - 100 000 000.97
-//                DecimalFormat("# ###"), - 100 000 000
-//                DecimalFormat("#, ###.##"), - 100, 000, 000.87
-//                DecimalFormat("#.###"),
-//                DecimalFormat("#,###"),
-//                DecimalFormat("#'###.##"),- 100'000'000.56
-//                DecimalFormat("#,##,###.##"),
-//                DecimalFormat("#,##")
-//        );
-
-        //val countryCodeSpinner: Spinner = findViewById(R.id.countryCodeSpinner)
         val currencyCodeSpinner: Spinner = findViewById(R.id.currencyCodeSpinner)
         val localeSpinner: Spinner = findViewById(R.id.localeSpinner)
-        //val languageCodeSpinner: Spinner = findViewById(R.id.languageCodeSpinner)
 
         val priceEditText: EditText = findViewById(R.id.priceEditText)
         val showFormatButton: Button = findViewById(R.id.showFormatButton)
@@ -76,13 +59,6 @@ class MainActivity : AppCompatActivity() {
                     currencyCodeSpinner.selectedItem.toString(),
                     priceEditText.text.toString()
             ).showFormat()
-//            currencyFormatTextView.setText(
-//                    "${countryCodeSpinner.selectedItem.toString()} " +
-//                    "${currencyCodeSpinner.selectedItem.toString()} " +
-//                            "${currencySymbols[currencyCodeSpinner.selectedItem.toString()]}" +
-//                    "${df.format(priceEditText.text.toString().toInt())}" /*+
-//                            "${countriesFormats[currencyCodeSpinner.selectedItem.toString()]?.format(priceEditText.text.toString().toInt())}"*/
-//             )
         }
     }
 }
