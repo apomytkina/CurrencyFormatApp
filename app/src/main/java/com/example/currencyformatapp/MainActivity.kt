@@ -17,15 +17,6 @@ class MainActivity : AppCompatActivity() {
         val showFormatButton: Button = findViewById(R.id.showFormatButton)
         val currencyFormatTextView: TextView = findViewById(R.id.currencyFormatTextView)
 
-//        ArrayAdapter.createFromResource(
-//                this,
-//                R.array.countryCodes,
-//                android.R.layout.simple_spinner_item
-//        ).also {adapter ->
-//            adapter.setDropDownViewResource(android.R.layout.simple_spinner_item)
-//            countryCodeSpinner.adapter = adapter
-//        }
-
         ArrayAdapter.createFromResource(
                 this,
                 R.array.currencyCodes,
@@ -43,15 +34,6 @@ class MainActivity : AppCompatActivity() {
             adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
             localeSpinner.adapter = adapter
         }
-
-//        ArrayAdapter.createFromResource(
-//                this,
-//                R.array.languageCodes,
-//                android.R.layout.simple_spinner_item
-//        ).also {adapter ->
-//            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-//            languageCodeSpinner.adapter = adapter
-//        }
 
         showFormatButton.setOnClickListener{
             currencyFormatTextView.text = Price(
