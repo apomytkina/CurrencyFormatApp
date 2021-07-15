@@ -57,5 +57,7 @@ class ExampleUnitTest {
         assertEquals("742.656,00 дин.", Price("sr_RS", "RSD", 742656.toString()).showFormat())
         assertEquals("₹९०,६५४.३४", Price("mr_IN", "INR",  90654.3423.toString()).showFormat())
         assertEquals("৯০,৬৫৪.৩৪৳", Price("bn_BD", "BDT", 90654.3423.toString()).showFormat())
+        assertEquals("၆၇,၃၂၁.၂၅ K", Price("my_MM", "PGK",  67321.246.toString()).showFormat())
+        assertEquals("۶۷٬۳۲۱٫۲۵", Price("fa_AF", "-", 67321.246.toString()).showFormat())
     }
 }

@@ -211,9 +211,9 @@ enum class Formats(
     QUOTE_DOT_BLANK_SYMBOL('’', '.'),
     SYMBOL_BLANK_QUOTE_DOT('’', '.'),
     SYMBOL_BLANK_QUOTE_COMA('’', ','),
-    PERSIAN_TWO_BLANK_SYMBOL(',', ',',3, 2, "persian"),
-    SYMBOL_BLANK_PERSIAN_TWO(',', ',', 3, 2, "persian"),
-    PERSIAN_THREE_BLANK_SYMBOL(',', ',',  3, 3, "persian"),
+    PERSIAN_TWO_BLANK_SYMBOL('٬', '٫',3, 2, "persian"),
+    SYMBOL_BLANK_PERSIAN_TWO('٬', '٫', 3, 2, "persian"),
+    PERSIAN_THREE_BLANK_SYMBOL('٬', '٫',  3, 3, "persian"),
     BENGALI_SYMBOL(',', '.',  3, 2, "bengali"),
     SYMBOL_BLANK_BENGALI(',', '.',  3, 2, "bengali"),
     SYMBOL_NEPALI(',', '.',  3, 2, "nepali"),
@@ -518,8 +518,8 @@ class Price(locale: String, currencyCode: String, price: String) {
         }
 
         return if (price.toDouble() < 0)
-            "-$result"
+            "-${result.trim()}"
         else
-            result
+            result.trim()
     }
 }
