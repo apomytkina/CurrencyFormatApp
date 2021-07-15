@@ -3,6 +3,8 @@ package com.example.currencyformatapp
 import android.os.Bundle
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
+import java.text.DecimalFormat
+import java.text.NumberFormat
 
 class MainActivity : AppCompatActivity() {
 

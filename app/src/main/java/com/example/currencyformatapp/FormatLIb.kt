@@ -146,7 +146,7 @@ val currencySymbols = mapOf(
         "TZS" to "Sh",
         "UAH" to "₴",
         "UGX" to "Sh",
-        "USD" to "\$",
+        "USD" to "$",
         "UYU" to "\$",
         "UZS" to "лв",
         "VEF" to "Bs F",
@@ -170,7 +170,7 @@ enum class Formats(
         private val numerals : String = "default"
 ) {
     SYMBOL_BLANK_COMA_DOT(',', '.'),
-    SYMBOL_COMA_DOT(',', '.'),
+    SYMBOL_COMA_DOT(',', '.'), // OK
     SYMBOL_BLANK_DOT_DOT('.', '.'),
     SYMBOL_DOT_DOT('.', '.'),
     SYMBOL_BLANK_BLANK_DOT(' ', '.'),
@@ -208,9 +208,9 @@ enum class Formats(
     BLANK_SYMBOL(' ', '-', 3, 0),
     EMPTY_COMA_BLANK_SYMBOL('-', ',', 0, 2),
     SYMBOL_BLANK_EMPTY_DOT('-', '.',  0, 2),
-    QUOTE_DOT_BLANK_SYMBOL('\'', '.'),
-    SYMBOL_BLANK_QUOTE_DOT('\'', '.'),
-    SYMBOL_BLANK_QUOTE_COMA('\'', ','),
+    QUOTE_DOT_BLANK_SYMBOL('’', '.'),
+    SYMBOL_BLANK_QUOTE_DOT('’', '.'),
+    SYMBOL_BLANK_QUOTE_COMA('’', ','),
     PERSIAN_TWO_BLANK_SYMBOL(',', ',',3, 2, "persian"),
     SYMBOL_BLANK_PERSIAN_TWO(',', ',', 3, 2, "persian"),
     PERSIAN_THREE_BLANK_SYMBOL(',', ',',  3, 3, "persian"),
@@ -218,14 +218,14 @@ enum class Formats(
     SYMBOL_BLANK_BENGALI(',', '.',  3, 2, "bengali"),
     SYMBOL_NEPALI(',', '.',  3, 2, "nepali"),
     SYMBOL_BLANK_NEPALI(',', '.', 3, 2, "nepali"),
-    DZONGHKA(',', '.', 3, 2, "dzonghka"),
+    DZONGHKA(',', '.', 3, 2, "dzongkha"),
     BURMESE(',', '.', 3, 2, "burmese"),
     THAI(',', '.', 3, 2, "thai"),
-    ARABIC_TWO_BLANK_SYMBOL(',', ',',  3, 2, "hindi-arabic"),
-    SYMBOL_BLANK_ARABIC_TWO(',', ',', 3, 2, "hindi-arabic"),
-    SYMBOL_ARABIC_TWO(',', ',', 3, 2, "hindi-arabic"),
-    ARABIC_THREE(',', ',', 3, 3, "hindi-arabic"),
-    ARABIC_WITHOUT_FRACTION(',', ',',3, 0, "hindi-arabic");
+    ARABIC_TWO_BLANK_SYMBOL('٬', '٫',  3, 2, "hindi-arabic"),
+    SYMBOL_BLANK_ARABIC_TWO('٬', '٫', 3, 2, "hindi-arabic"),
+    SYMBOL_ARABIC_TWO('٬', '٫', 3, 2, "hindi-arabic"),
+    ARABIC_THREE('٬', '٫', 3, 3, "hindi-arabic"),
+    ARABIC_WITHOUT_FRACTION('٬', '٫',3, 0, "hindi-arabic");
 
     fun formatNumber(number: Double) : String {
         val listInteger = mutableListOf<Char>()
@@ -262,6 +262,7 @@ enum class Formats(
                     .replace('7', '٧')
                     .replace('8', '٨')
                     .replace('9', '٩')
+                    //.replace(',', '٬')
         } else if (numerals == "persian"){
             result
                     .replace('0', '۰')
@@ -274,6 +275,7 @@ enum class Formats(
                     .replace('7', '۷')
                     .replace('8', '۸')
                     .replace('9', '۹')
+                    .replace(' ', ' ')
         } else if (numerals == "bengali"){
             result
                     .replace('0', '০')
@@ -299,7 +301,6 @@ enum class Formats(
                     .replace('8', '८')
                     .replace('9', '९')
         } else if (numerals == "dzongkha"){
-            // !
             result
                     .replace('0', '༠')
                     .replace('1', '༡')
@@ -311,6 +312,8 @@ enum class Formats(
                     .replace('7', '༧')
                     .replace('8', '༨')
                     .replace('9', '༩')
+                    .replace(',', ',')
+                    .replace('.', '.')
         } else if (numerals == "burmese"){
             result
                     .replace('0', '၀')
@@ -335,6 +338,8 @@ enum class Formats(
                     .replace('7', '๗')
                     .replace('8', '๘')
                     .replace('9', '๙')
+                    .replace(',', ',')
+                    .replace('.', '.')
         } else
             result
     }
